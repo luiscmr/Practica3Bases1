@@ -59,7 +59,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Code\Administrativo.aspx" />
+    <Content Include="Code\AsignacionCursos.aspx" />
+    <Content Include="Code\CatedraticosCurso.aspx" />
+    <Content Include="Code\CursosEstudiante.aspx" />
     <Content Include="Code\Estudiante.aspx" />
+    <Content Include="Code\NotasEstudiante.aspx" />
     <Content Include="Code\Profesor.aspx" />
     <Content Include="Code\Site1.Master" />
     <None Include="Web.Debug.config">
@@ -82,13 +86,41 @@
     <Compile Include="Code\Administrativo.aspx.designer.cs">
       <DependentUpon>Administrativo.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Code\AsignacionCursos.aspx.cs">
+      <DependentUpon>AsignacionCursos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Code\AsignacionCursos.aspx.designer.cs">
+      <DependentUpon>AsignacionCursos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Code\CatedraticosCurso.aspx.cs">
+      <DependentUpon>CatedraticosCurso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Code\CatedraticosCurso.aspx.designer.cs">
+      <DependentUpon>CatedraticosCurso.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Code\Conexion.cs" />
+    <Compile Include="Code\CursosEstudiante.aspx.cs">
+      <DependentUpon>CursosEstudiante.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Code\CursosEstudiante.aspx.designer.cs">
+      <DependentUpon>CursosEstudiante.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Code\Estudiante.aspx.cs">
       <DependentUpon>Estudiante.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Code\Estudiante.aspx.designer.cs">
       <DependentUpon>Estudiante.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Code\NotasEstudiante.aspx.cs">
+      <DependentUpon>NotasEstudiante.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Code\NotasEstudiante.aspx.designer.cs">
+      <DependentUpon>NotasEstudiante.aspx</DependentUpon>
     </Compile>
     <Compile Include="Code\Profesor.aspx.cs">
       <DependentUpon>Profesor.aspx</DependentUpon>

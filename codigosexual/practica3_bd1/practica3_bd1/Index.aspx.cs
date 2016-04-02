@@ -24,7 +24,6 @@ namespace practica3_bd1
 
             if (conexion.Entrar(usuario, password) == 1)
             {
-                Console.WriteLine("SHEPUDO");
                 return "1";
 
             }

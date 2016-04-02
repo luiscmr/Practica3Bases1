@@ -25,14 +25,22 @@ namespace practica3_bd1.Code
             if (ConectarMysql())
             {
                 String nombreproc = "Login";
+                int tipo = 0;
                 MySqlCommand cmd = new MySqlCommand(nombreproc, conn);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@User", Int32.Parse(user));
                 cmd.Parameters.AddWithValue("@Pass", password);
+                cmd.Parameters.Add(new MySqlParameter("Resultado", resultado));
+                cmd.Parameters.Add(new MySqlParameter("Tipo", tipo));
 
+                cmd.Parameters["Resultado"].Direction = ParameterDirection.Output;
+                cmd.Parameters["Tipo"].Direction = ParameterDirection.Output;
 
-                resultado = Int32.Parse(cmd.ExecuteScalar().ToString());
-                Console.WriteLine("Connecting to MySQL...");
+                cmd.ExecuteNonQuery();
+
+                resultado = (int)cmd.Parameters["Resultado"].Value;
+                tipo = (int)cmd.Parameters["Tipo"].Value;
+
                 cerrarmysql();
                 return resultado;
 

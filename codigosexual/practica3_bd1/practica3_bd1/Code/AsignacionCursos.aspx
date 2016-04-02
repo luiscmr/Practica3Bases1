@@ -1,9 +1,15 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Code/Site1.Master" AutoEventWireup="true" CodeBehind="Estudiante.aspx.cs" Inherits="practica3_bd1.Code.Estudiante" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Code/Site1.Master" AutoEventWireup="true" CodeBehind="AsignacionCursos.aspx.cs" Inherits="practica3_bd1.Code.AsignacionCursos" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+
+    <!-- DataTables CSS -->
+    <link href="../bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.css" rel="stylesheet">
+
+    <!-- DataTables Responsive CSS -->
+    <link href="../bower_components/datatables-responsive/css/dataTables.responsive.css" rel="stylesheet">
+
 </asp:Content>
-
 <asp:Content ID="Content2" ContentPlaceHolderID="navbarheader" runat="server">
-
+    
      <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
@@ -24,17 +30,6 @@
 
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="cuerpo" runat="server">
-
-        <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">Bienvenido</h1>
-            </div>
-            <!-- /.col-lg-12 -->
-        </div>
-        <!-- /.row -->
-    </div>
-
 </asp:Content>
 <asp:Content ID="Content5" ContentPlaceHolderID="pie" runat="server">
 </asp:Content>

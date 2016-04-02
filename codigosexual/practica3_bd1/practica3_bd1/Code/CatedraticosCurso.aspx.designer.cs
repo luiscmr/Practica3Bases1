@@ -10,6 +10,6 @@
 namespace practica3_bd1.Code {
     
     
-    public partial class Estudiante {
+    public partial class CatedraticosCuros {
     }
 }
