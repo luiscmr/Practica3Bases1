@@ -11,7 +11,7 @@ using System.Data.SqlClient;
 
 namespace practica3_bd1.Code
 {
-    public class Conexion
+    public class Conexion : System.Web.UI.Page
     {
         private MySqlConnection conn = new MySqlConnection();
 
@@ -40,7 +40,12 @@ namespace practica3_bd1.Code
 
                 resultado = (int)cmd.Parameters["Resultado"].Value;
                 tipo = (int)cmd.Parameters["Tipo"].Value;
+                
+                Session["Usuario"] = new Sesion(user, tipo.ToString()); //crea un objeto de tipo sesion con los datos de rol y el nombre del usuario
+                Session["Nombre"] = user;
+                string Nombre_Usuario = (string)Session["Nombre"]; //asi obtenes la variable de sesion Nombre
 
+                
                 cerrarmysql();
                 return resultado;
 

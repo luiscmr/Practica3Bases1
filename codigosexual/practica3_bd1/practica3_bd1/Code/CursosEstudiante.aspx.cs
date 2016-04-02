@@ -12,6 +12,23 @@ namespace practica3_bd1.Code
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack)
+            {
+                if (Session["Usuario"] != null)
+                {
+                    if (!Validacion.validar_sesion((Sesion)Session["Usuario"], "CursosEstudiante"))
+                    {
+                        Response.Redirect("~/Index.aspx");
+                    }
+                }
+                else
+                {
+                    Response.Redirect("~/Index.aspx");
+                }
+
+
+            }
+
 
         }
 
@@ -19,6 +36,11 @@ namespace practica3_bd1.Code
 
         public static string Mostrar(string anio, string semestre) 
         {
+
+
+
+
+
             string ret = "";
 
 

@@ -100,7 +100,9 @@
     <Compile Include="Code\CatedraticosCurso.aspx.designer.cs">
       <DependentUpon>CatedraticosCurso.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Code\Conexion.cs" />
+    <Compile Include="Code\Conexion.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Code\CursosEstudiante.aspx.cs">
       <DependentUpon>CursosEstudiante.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

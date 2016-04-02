@@ -11,28 +11,16 @@ namespace practica3_bd1.Code
         {
             string tmp = n.Tipo.ToLower();
 
+           
+
             switch (tmp)
             {
                 case "1":
                     switch (pagina)
                     {
-                        //Administrador tiene acceso a todas las paginas y todas las funciones
-                        case "Cliente":
-                        case "ClienteMasGasta":
-                        case "ClienteDeuda":
-                        case "Inicio":
-                        case "Inv_Bodega":
-                        case "Inv_tienda":
-                        case "Producto":
-                        case "ProductosInventario":
-                        case "ProductosMasVenden":
-                        case "Usuarios":
-                        case "Venta":
-                        case "VentaDiaria":
-                        case "VentaSemanal":
-                        case "VentaMensual":
-                        case "VentaAnual":
-                        case "Roles":
+                        //Empleado tiene acceso a todas las paginas y todas las funciones
+                        case "Administrativo":
+                        case "Unidades":
                             return true;
                         default:
                             return false;
@@ -40,10 +28,12 @@ namespace practica3_bd1.Code
                 case "2":
                     switch (pagina)
                     {
-                        //Bodega
-                        case "Inv_Bodega":
-                        case "Inicio":
-                        case "Inv_tienda":
+                        //Estudiante
+                        case "NotasEstudiante":
+                        case "CursosEstudiante":
+                        case "AsignacionCursos":
+                        case "CatedraticosCurso":
+                        case "Estudiante":
                             return true;
                         default:
                             return false;
@@ -52,12 +42,8 @@ namespace practica3_bd1.Code
                 case "3":
                     switch (pagina)
                     {
-                        //Venta
-                        case "Cliente":
-                        case "Inv_tienda":
-                        case "Venta":
-                        case "ClienteDeuda":
-                        case "Inicio":
+                        //CAtedratico
+                        case "Profesor":
                             return true;
                         default:
                             return false;
