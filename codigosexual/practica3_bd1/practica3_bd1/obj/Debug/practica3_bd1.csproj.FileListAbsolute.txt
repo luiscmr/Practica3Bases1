@@ -10,3 +10,9 @@ C:\Users\Mynor Masaya\Documents\Visual Studio 2013\Projects\practica3_bd1\practi
 \\MYNOR\Users\Mynor Masaya\Documents\Visual Studio 2013\Projects\practica3_bd1\practica3_bd1\obj\Debug\practica3_bd1.csprojResolveAssemblyReference.cache
 \\MYNOR\Users\Mynor Masaya\Documents\Visual Studio 2013\Projects\practica3_bd1\practica3_bd1\obj\Debug\practica3_bd1.dll
 \\MYNOR\Users\Mynor Masaya\Documents\Visual Studio 2013\Projects\practica3_bd1\practica3_bd1\obj\Debug\practica3_bd1.pdb
+C:\Users\luiis\Documents\GitHub\Practica3Bases1\codigosexual\practica3_bd1\practica3_bd1\obj\Debug\practica3_bd1.csprojResolveAssemblyReference.cache
+C:\Users\luiis\Documents\GitHub\Practica3Bases1\codigosexual\practica3_bd1\practica3_bd1\bin\practica3_bd1.dll.config
+C:\Users\luiis\Documents\GitHub\Practica3Bases1\codigosexual\practica3_bd1\practica3_bd1\bin\practica3_bd1.dll
+C:\Users\luiis\Documents\GitHub\Practica3Bases1\codigosexual\practica3_bd1\practica3_bd1\bin\practica3_bd1.pdb
+C:\Users\luiis\Documents\GitHub\Practica3Bases1\codigosexual\practica3_bd1\practica3_bd1\obj\Debug\practica3_bd1.dll
+C:\Users\luiis\Documents\GitHub\Practica3Bases1\codigosexual\practica3_bd1\practica3_bd1\obj\Debug\practica3_bd1.pdb
